@@ -1,7 +1,7 @@
 import numpy as np
 
-M = np.matrix([[100, 50, 0], [150, 100, 50], [200, 150, 100]])
-E = np.matrix([[20, 10, 5], [30, 20, 10], [40, 30, 15]])
+M = np.array([[100, 150, 200], [50, 100, 150], [0, 50, 100]])
+E = np.array([[20, 30, 40], [10, 20, 30], [5, 10, 15]])
 
 def update_contrast(N, value):
     return N * value
